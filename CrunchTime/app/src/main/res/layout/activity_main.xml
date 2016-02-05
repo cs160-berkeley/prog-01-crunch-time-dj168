@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#fea73c"
+    android:background="#e9b013"
 
 
     tools:context="com.example.derrickhu.crunchtime.MainActivity">
@@ -22,17 +22,19 @@
         android:id="@+id/input1"
         android:hint="#"
         android:textSize="20dp"
-        android:textColorHint="#7e0f0f"
+        android:textColorHint="#e71553e3"
         android:typeface="sans"
         android:layout_below="@+id/descript1"
         android:layout_toStartOf="@+id/spinner"
-        android:backgroundTint="#4163de" />
+        android:backgroundTint="#4163de"
+        android:textColor="#e71553e3" />
 
     <Spinner
         android:layout_width="220dp"
         android:layout_height="50dp"
         android:id="@+id/spinner"
         android:spinnerMode="dropdown"
+        android:textColor="#1553e3"
         android:entries="@array/spinner_entries"
         android:layout_alignTop="@+id/input1"
         android:layout_centerHorizontal="true" />
@@ -43,11 +45,12 @@
         android:layout_height="50dp"
         android:text="CONVERT"
         android:id="@+id/convert"
-        android:background="#ed2e04"
+        android:background="#e71553e3"
         android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"
         android:layout_above="@+id/caloriesBurned"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textSize="10dp" />
 
 
     <TextView
@@ -57,7 +60,7 @@
         android:id="@+id/output"
         android:layout_gravity="center_horizontal"
         android:layout_marginRight="10dp"
-        android:textColor="#7e0f0f"
+        android:textColor="#1553e3"
         android:textSize="18dp"
         android:layout_below="@+id/spinner"
         android:layout_alignStart="@+id/spinner"
@@ -67,6 +70,7 @@
         android:layout_width="220dp"
         android:layout_height="50dp"
         android:id="@+id/spinner2"
+        android:textColor="#1553e3"
         android:entries="@array/spinner_entries"
         android:spinnerMode="dropdown"
         android:layout_centerVertical="true"
@@ -78,7 +82,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/output2"
-        android:textColor="#7e0f0f"
+        android:textColor="#1553e3"
         android:textSize="18dp"
         android:layout_above="@+id/spinner3"
         android:layout_toEndOf="@+id/descript2"
@@ -89,7 +93,7 @@
         android:layout_height="wrap_content"
         android:text="Calories Burned!"
         android:id="@+id/caloriesBurned"
-        android:textColor="#000000"
+        android:textColor="#e71553e3"
         android:textSize="18dp"
         android:layout_below="@+id/spinner"
         android:layout_toEndOf="@+id/convert2" />
@@ -98,6 +102,7 @@
         android:layout_width="220dp"
         android:layout_height="50dp"
         android:id="@+id/spinner4"
+        android:textColor="#1553e3"
         android:spinnerMode="dropdown"
         android:entries="@array/spinner_entries"
         android:layout_alignParentBottom="true"
@@ -111,11 +116,12 @@
         android:ems="10"
         android:id="@+id/input2"
         android:hint="#"
-        android:textColorHint="#7e0f0f"
+        android:textColorHint="#e71553e3"
         android:layout_alignTop="@+id/convert2"
         android:layout_alignStart="@+id/input1"
         android:layout_toStartOf="@+id/spinner"
-        android:backgroundTint="#4163de" />
+        android:backgroundTint="#4163de"
+        android:textColor="#e71553e3" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -124,15 +130,16 @@
         android:id="@+id/descript1"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff"
-        android:typeface="sans" />
+        android:textColor="#e71553e3"
+        android:typeface="sans"
+        android:textSize="12dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Convert exercises to other exercises!"
         android:id="@+id/descript2"
-        android:textColor="#ffffff"
+        android:textColor="#e71553e3"
         android:layout_below="@+id/output"
         android:layout_alignParentStart="true" />
 
@@ -144,7 +151,7 @@
         android:id="@+id/convert2"
         android:textSize="10dp"
         android:textColor="#FFFFFF"
-        android:background="#ed2e04"
+        android:background="#e71553e3"
         android:layout_above="@+id/spinner2"
         android:layout_alignEnd="@+id/descript1" />
 
@@ -152,6 +159,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spinner3"
+        android:textColor="#1553e3"
         android:entries="@array/spinner_entries"
         android:spinnerMode="dropdown"
         android:layout_below="@+id/convert2"
@@ -174,7 +182,7 @@
         android:layout_marginTop="56dp"
         android:layout_below="@+id/spinner2"
         android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:textColor="#e71553e3" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -183,8 +191,8 @@
         android:ems="10"
         android:id="@+id/input3"
         android:hint="#"
-        android:textColor="#7e0f0f"
-        android:textColorHint="#7e0f0f"
+        android:textColor="#e71553e3"
+        android:textColorHint="#e71553e3"
         android:layout_above="@+id/spinner4"
         android:layout_toStartOf="@+id/spinner4"
         android:backgroundTint="#4163de" />
@@ -197,7 +205,7 @@
         android:id="@+id/caloriesText"
         android:layout_below="@+id/input3"
         android:layout_alignParentStart="true"
-        android:textColor="#000000"
+        android:textColor="#e71553e3"
         android:textSize="15dp" />
 
     <Button
@@ -207,7 +215,7 @@
         android:text="CONVERTED TO"
         android:id="@+id/convert3"
         android:textSize="10dp"
-        android:background="#ed2e04"
+        android:background="#e71553e3"
         android:textColor="#ffffff"
         android:layout_above="@+id/spinner4"
         android:layout_alignEnd="@+id/convert2" />
@@ -217,7 +225,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/output3"
-        android:textColor="#7e0f0f"
+        android:textColor="#1553e3"
         android:layout_alignBottom="@+id/convert3"
         android:layout_toEndOf="@+id/descript2"
         android:textSize="18dp" />

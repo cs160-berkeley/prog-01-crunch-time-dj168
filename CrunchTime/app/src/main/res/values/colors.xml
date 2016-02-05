@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#f1610e</color>
-    <color name="colorPrimaryDark">#ef3901</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#1553e3</color>
+    <color name="colorPrimaryDark">#011def</color>
+    <color name="colorAccent">#1553e3</color>
     <color name="radio_button">#e75748</color>
     <color name="background_color">#ffffff</color>
 </resources>

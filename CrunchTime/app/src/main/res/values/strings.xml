@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CrunchTime</string>
+    <string name="app_name">Cal Converter</string>
     <string name="spinner_title">Select Exercise</string>
     <string-array name="spinner_entries">
         <item>Minutes of Cycling</item>
