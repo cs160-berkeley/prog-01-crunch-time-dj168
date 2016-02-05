@@ -1,6 +1,6 @@
-# PROG 01: Crunch Time
+# PROG 01: Cal Converter
 
-There are 3 main components of the CrunchTime app.
+There are 3 main components of the Cal Converter app.
 
 The first component is simply inputting the number of reps or the number of minutes you did of a certain exercise. Then press the "CONVERT" button to convert that amount into calories burned. 
 
@@ -18,25 +18,24 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Screenshots
 
-<img src="screenshots/c0.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c1.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c2.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c3.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c4.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c5.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s0.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s3.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s4.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s5.png" height="400" alt="Screenshot"/>
 
-<img src="screenshots/c10.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c11.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c12.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c13.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c14.png" height="400" alt="Screenshot"/>
-<img src="screenshots/c15.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s6.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s7.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s8.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s9.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s10.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s11.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s12.png" height="400" alt="Screenshot"/>
 
 
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
 
 
