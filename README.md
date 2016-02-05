@@ -1,6 +1,6 @@
-# PROG 01: Crunch Time
+# PROG 01: Cal Converter
 
-There are 3 main components of the CrunchTime app.
+There are 3 main components of the Cal Converter app.
 
 The first component is simply inputting the number of reps or the number of minutes you did of a certain exercise. Then press the "CONVERT" button to convert that amount into calories burned. 
 
@@ -37,7 +37,5 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
 
 
