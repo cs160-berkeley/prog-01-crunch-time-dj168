@@ -14,7 +14,7 @@ Derrick Hu ([HuDerrick@berkeley.edu](mailto:HuDerrick@berkeley.edu))
 
 ## Demo Video
 
-See [Cal Converter] (https://www.youtube.com/watch?v=wYtg2FcV8bc&feature=youtu.be)
+See [Cal Converter] (https://www.youtube.com/watch?v=wYtg2FcV8bc&feature=youtu.be){:target="_blank"}
 
 ## Screenshots
 
